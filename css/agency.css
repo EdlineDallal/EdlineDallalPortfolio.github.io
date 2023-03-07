@@ -1058,24 +1058,15 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 @media (max-width: 767px) {
   .textlanding {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
   }
   .textlanding img {
-    width: 80px;
-    margin: 0;
+    width: 50%;
+    max-width: 150px;
+    margin: 10px 0;
   }
-  .textlanding p:first-child {
+  .textlanding p {
     font-size: 30px;
-    margin: 10px 0 0 0;
-  }
-  .textlanding p:last-child {
-    font-size: 30px;
-    margin: 0;
-  }
-  .textlanding p:not(:first-child):not(:last-child) {
-    display: none;
+    margin: 10px 0;
   }
 }
