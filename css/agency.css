@@ -1055,3 +1055,20 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   max-width: 600px;
   padding: 2em 3em;
 }
+
+@media (max-width: 767px) {
+  .textlanding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .textlanding img {
+    width: 80px;
+    margin: 0;
+  }
+  .textlanding p {
+    font-size: 30px;
+    margin: 10px 0;
+  }
+}
