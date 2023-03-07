@@ -98,21 +98,19 @@
 
   <!-- =======================  LANDING SECTION ======================= -->
 
-
   <header class="masthead">
     <div id="particles-js"></div>
     <div class="textlanding">
       <p style="display:inline; font-size: 45px; padding-left: 20px">EDLINE</p>
-      <img width="90px" style="display:inline; margin-bottom: 20px; margin-right: 10px; margin-left: 10px"
+      <img width="100px" style="display:inline; margin-bottom: 10px; margin-right: 10px; margin-left: 10px"
         src="img/logo/Home_single_big.png">
       <p style="display:inline;  ; font-size: 45px">DALLAL</p>
-      <hr style="width: 100px; height: 1px; border:none;color:#333;background-color:#333;">
-      
       <p style="display:inline;  ; font-size: 25px">ANALYTICS PORTFOLIO</p>
-      <br>
+
+      <hr style="width: 120px; height: 1px; border:none;color:#333;background-color:#333;"> 
+  
       <br>
 
-      <br>
       <ul class="list-inline social-buttons">
         <li class="list-inline-item social-buttons">
           <a href="https://www.linkedin.com/in/edlinedallal/">
@@ -124,12 +122,14 @@
             <i class="fa fa-github" style="color: white"></i>
           </a>
         </li>
-        
       </ul>
-      <br><br>
-      <p>CREATING VALUE THROUGH DATA ANALYSIS: <br>UNLOCKING THE POWER OF DATA.</p>
-      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#description">INTRO</a>
-      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#contact">Contact</a>
+      <br>
+      <p>CREATING VALUE THROUGH DATA ANALYSIS: <br>UNLOCKING THE POWER OF DATA</p>
+      <div style="display: flex">
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#description">INTRO</a>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#contact">Contact</a>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#portfolio">Portfolio</a>
+      </div>
     </div>
     <div class="arrowlanding">
       <a class="js-scroll-trigger" href="#description">
@@ -137,6 +137,7 @@
       </a>
     </div>
   </header>
+  
 
 
   <!-- scripts -->
@@ -224,7 +225,7 @@
                 <p class="explanation_portfolio">SENTIMENT ANALYSIS OF ELON MUSK'S TWEETS: QUANTIFYING POSITIVE, NEGATIVE, AND NEUTRAL SENTIMENT<br></p>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/pic01.jpg" alt="">
+            <img class="img-fluid" src="img/portfolio/pic01-2.jpg" alt="">
           </a>
         </div>
 
@@ -239,7 +240,7 @@
                   <i></i></p>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/pic02.jpg" alt="">
+            <img class="img-fluid" src="img/portfolio/pic02-2.jpg" alt="">
           </a>
         </div>
 
@@ -253,7 +254,7 @@
                     </i> </p>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/pic03.jpg" alt="">
+            <img class="img-fluid" src="img/portfolio/pic03-2.jpg" alt="">
           </a>
         </div>
 
@@ -344,20 +345,21 @@
 
   
   <!-- ELON MUSK -->
+
   <center>
-    <div class="portfolio-modal modal fade" id="elonmusk" tabindex="-1" role="dialog" aria-hidden="True">
-      <div class="modal-dialog">
+    <div class="portfolio-modal modal fade" id="elonmusk" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
           <div data-dismiss="modal">
             <div class="lr">
               <div class="rl"></div>
             </div>
           </div>
-          <div class="container">
+          <div class="container-fluid">
             <div class="row">
               <div class="col-lg-10 mx-auto">
-                <div class="modal-body">
-                  <img src="img/portfolio/pic01.jpg" width="150px"></img>
+                <div class="modal-body" style="max-height: calc(100vh - 250px); overflow-y: auto;">
+                  <img src="img/portfolio/pic01-2.jpg" width="150px"></img>
                   <h4>ELON MUSK TWEETS</h4>
                   <p style="max-width: 600px">SENTIMENT ANALYSIS OF ELON MUSK'S TWEETS: QUANTIFYING POSITIVE, NEGATIVE, AND NEUTRAL SENTIMENT.</p>
                   <a style="margin-top: 0px" class="btn btn-secondary btn text-uppercase"
@@ -373,8 +375,6 @@
                       <a class="btn btn-secondary btn text-uppercase js-scroll-trigger"
                         href="https://www.kaggle.com/datasets/marta99/elon-musks-tweets-dataset-2022">DataSet</a>
                     </div>
-            
-                  
                   </div>
                 </div>
               </div>
@@ -382,14 +382,15 @@
           </div>
         </div>
       </div>
+    </div>
   </center>
-
+  
 
 
   <!-- APPLE -->
   <center>
     <div class="portfolio-modal modal fade" id="apple" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog ">
+      <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
           <div  data-dismiss="modal">
             <div class="lr">
@@ -399,8 +400,8 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-10 mx-auto">
-                <div class="modal-body">
-                  <img src="img/portfolio/pic02.jpg" width="150px"></img>
+                <div class="modal-body" style="max-height: calc(100vh - 250px); overflow-y: auto;">
+                  <img src="img/portfolio/pic02-2.jpg" width="150px"></img>
                   <h4>APPLE PRODUCT PRICE LIST</h4>
                   <p style="max-width: 600px">COMPARATIVE ANALYSIS OF APPLE PRODUCT PRICES IN 26 COUNTRIES.</p>
                   <a style="margin-top: 0px" class="btn btn-secondary btn text-uppercase js-scroll-trigger"
@@ -410,9 +411,8 @@
                     <h6>Description</h6>
                     <hr>
                     <p>The Apple product price list project analyzes and explores the average prices of Apple products across 26 countries. The analysis uncovers surprising insights such as the highest prices in Upper Middle Income countries and the similarity in prices between Lower Middle Income and High Income countries. The project showcases skills in data cleaning and analysis.</p>
-                    
+
                     <hr>
-                 
                     <div style="margin-top: 5px;">
                       <a class="btn btn-secondary btn text-uppercase js-scroll-trigger"
                         href="https://github.com/EdlineDallal/Apple-Products/blob/main/Apple.ipynb">GitHub</a>
@@ -426,9 +426,8 @@
           </div>
         </div>
       </div>
+    </div>
   </center>
-
-
 
 
   <!-- BELLABEAT -->
@@ -437,7 +436,7 @@
 
   <center>
     <div class="portfolio-modal modal fade" id="bellabeat" tabindex="-1" role="dialog" aria-hidden="False">
-      <div class="modal-dialog">
+      <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
           <div data-dismiss="modal">
             <div class="lr">
@@ -447,8 +446,8 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-10 mx-auto">
-                <div class="modal-body">
-                  <img src="img/portfolio/pic03.jpg" width="150px"></img>
+                <div class="modal-body" style="max-height: calc(100vh - 250px); overflow-y: auto;">
+                  <img src="img/portfolio/pic03-2.jpg" width="150px"></img>
                   <h4>  BELLABEAT FITNESS TRACKER </h4>
                   <p style="max-width: 600px">  BELLABEAT CASE STUDY- FITBIT FITNESS TRACKER ANALYSIS.</p>
                   <a style="margin-top: 0px" class="btn btn-secondary btn text-uppercase"
@@ -464,8 +463,6 @@
                       <a class="btn btn-secondary btn text-uppercase js-scroll-trigger"
                         href="https://www.kaggle.com/datasets/arashnic/fitbit">DataSet</a>
                     </div>
-            
-                  
                   </div>
                 </div>
               </div>
@@ -473,24 +470,15 @@
           </div>
         </div>
       </div>
+    </div>
+       
   </center>
-
-
   <!-- ======================================================================= -->
 
 
 
 
-
-
-
-
-
-
-
   <!-- ======================== JAVASCRIPT SECTION =========================== -->
-
-
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
@@ -515,11 +503,6 @@
 
     gtag('config', 'UA-79254642-3');
   </script>
-
-
-
-
-
   <!-- ======================================================================= -->
 </body>
 
