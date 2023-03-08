@@ -1,4 +1,5 @@
-### EdlineDallal.github.io
+### https://edlinedallal.github.io/
+
 # Data Analysis Portfolio
 This portfolio contains the projects I have worked on during my data analysis course. It also includes a personal project that I have chosen to work on to practice new methods and tools.
 ### Why HTML?
